@@ -1,0 +1,33 @@
+.active{
+    color: rgb(0, 255, 42);
+    background-color: blue;
+}
+.paginationjs-pages > ul {
+    list-style: none;
+    display: flex;
+}
+.paginationjs-pages > ul > li {
+    
+    margin: 5px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+   background-color: antiquewhite;
+    text-align: center;
+}
+.paginationjs-pages{
+    cursor: pointer;
+}
+.totalImg {
+    display: flex;
+}
+.totalImg img {
+    width: 50%;
+    
+}
+.contain{
+    position: relative;
+}
+#content{
+    position: relative;
+}

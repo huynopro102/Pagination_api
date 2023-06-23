@@ -1,0 +1,26 @@
+{
+  "name": "pagination_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "predeploy": "npm run build" ,
+    "deploy" : "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "gh-pages": "^5.0.0",
+    "mongoose": "^7.3.0"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  },
+  "homepage":"http://huynopro102.github.io/pagination_api"
+}
