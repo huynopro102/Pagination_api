@@ -1,4 +1,4 @@
-# total play server 
+# tutorial play server 
 - step 1 : clone code " do it yourself "
 - step 2 : run the command ' npm start '
 - step 3 : run the command ' node model/connectDB.js
