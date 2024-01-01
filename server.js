@@ -62,5 +62,5 @@ app.get('/user',(req,res)=>{
     }
 })
 app.listen('3333',(req,res)=>{
-    console.log("server listening .... ")
+    console.log("server listening .... 3333")
 })
